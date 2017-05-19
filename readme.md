@@ -23,3 +23,5 @@ Install http-server
     npm install http-server -g
 
 Run http-server and browse to 127.0.0.1:8080
+
+You can also do `npm init` and save the dependencies with the project `npm install something --save-dev`
