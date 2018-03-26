@@ -1,22 +1,18 @@
-Install riot compiler
 
-    npm install riot -g
+Get the dependencies
 
-Install typescript
+    npm install 
 
-    npm install typescript -g
-
-Install typescript-simple
-
-    npm install typescript-simple -g
 
 Create a "tag" folder and add a .tag file.
 
 Compile all the tag files into "tags.js" in the dist folder.  Or watch the tag folder for changes.
 
-    riot --type typescript tag dist/tags.js
+    npm run-script build
 
-    riot -w --type typescript tag dist/tags.js
+or
+
+    npm run-script watch
 
 Install http-server
 
@@ -24,4 +20,3 @@ Install http-server
 
 Run http-server and browse to 127.0.0.1:8080
 
-You can also do `npm init` and save the dependencies with the project `npm install something --save-dev`

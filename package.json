@@ -1,0 +1,27 @@
+{
+  "name": "riot-typescript",
+  "version": "1.0.0",
+  "description": "riot.js with typescript sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "riot --type typescript tag dist/tags.js",
+    "watch": "riot -w --type typescript tag dist/tags.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubbins/riot-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubbins/riot-typescript/issues"
+  },
+  "homepage": "https://github.com/hubbins/riot-typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "riot": "^3.9.0",
+    "typescript": "^2.7.2",
+    "typescript-simple": "^8.0.6"
+  }
+}
